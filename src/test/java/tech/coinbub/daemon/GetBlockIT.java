@@ -19,7 +19,7 @@ import static tech.coinbub.daemon.testutils.BeanPropertyMatcher.property;
 import tech.coinbub.daemon.testutils.Dockerized;
 
 @ExtendWith(Dockerized.class)
-public class TestGetBlock {
+public class GetBlockIT {
     @Test
     public void canGetSimpleBlock(final Litecoin litecoin) {
         final Block block = litecoin.getblock("fd5aa78425d7dc2200de2d500d034d544abbccbec50bc3220561a6ede242a97b");

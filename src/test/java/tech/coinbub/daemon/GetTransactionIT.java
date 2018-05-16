@@ -15,7 +15,7 @@ import static tech.coinbub.daemon.testutils.BeanPropertyMatcher.property;
 import tech.coinbub.daemon.testutils.Dockerized;
 
 @ExtendWith(Dockerized.class)
-public class TestGetTransaction {
+public class GetTransactionIT {
     @Test
     public void canGetTransactionWithMultipleOuts(final Litecoin litecoin) {
         final Transaction tx = litecoin.gettransaction("76d3cb8276d4f8376e960278d766ff5066f40a78192a5b161c05739f26182da9");
