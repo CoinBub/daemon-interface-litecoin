@@ -163,6 +163,23 @@ public interface Litecoin {
     String getbestblockhash();
 
     /**
+     * getblockhash height
+     * 
+     * Returns hash of block in best-block-chain at height provided.
+     * 
+     * Arguments:
+     * 1. height         (numeric, required) The height index
+     * 
+     * Result:
+     * "hash"         (string) The block hash
+     * 
+     * Examples:
+     * > litecoin-cli getblockhash 1000
+     * > curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "getblockhash", "params": [1000] }' -H 'content-type: text/plain;' http://127.0.0.1:9332/
+     */
+    String getblockhash(Long height);
+
+    /**
      * `getblock "blockhash" ( verbosity )`
      * 
      * If verbosity is 0, returns a string that is serialized, hex-encoded data for block 'hash'.
