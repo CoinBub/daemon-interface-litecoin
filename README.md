@@ -1,3 +1,3 @@
 # Litecoin Daemon Interface #
 
-[![Build Status](https://travis-ci.org/CoinBub/daemon-interface-litecoin.svg?branch=master)](https://travis-ci.org/CoinBub/daemon-interface-litecoin) [![Coverage Status](https://coveralls.io/repos/github/CoinBub/daemon-interface-litecoin/badge.svg?branch=master)](https://coveralls.io/github/CoinBub/daemon-interface-litecoin?branch=master)
+[![Build Status](https://travis-ci.org/CoinBub/daemon-interface-litecoin.svg?branch=master)](https://travis-ci.org/CoinBub/daemon-interface-litecoin) [![Maintainability](https://api.codeclimate.com/v1/badges/55173a3faa9417d14704/maintainability)](https://codeclimate.com/github/CoinBub/daemon-interface-litecoin/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/55173a3faa9417d14704/test_coverage)](https://codeclimate.com/github/CoinBub/daemon-interface-litecoin/test_coverage)
